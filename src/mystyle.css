@@ -1,0 +1,28 @@
+label {
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-size: 1.5rem;
+     text-align: center;
+}
+
+.container-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.margin{
+    margin-top: 1rem;
+}
+
+input{
+    padding: 10px;
+}
+
+button{
+    background-color: rgb(36, 174, 66);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 8px;
+    border: 1px solid;
+}

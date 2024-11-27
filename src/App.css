@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  background-color: #f4f5f8;
+}
+
+h1{
+  color: rgb(42, 30, 219);
+  text-align: center;
+}
+
+.center-container{
+  display: flex;
+  justify-content: center;
+}
