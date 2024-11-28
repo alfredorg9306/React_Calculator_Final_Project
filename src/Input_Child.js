@@ -9,7 +9,7 @@ function Data_Input (){
     const [inputValue,setInputValue] = useState(''); //USESTATE
     const handleChange = (event) =>{ // GUARDAR EL DATO DEL INPUT
         const newValue = event.target.value;
-        if(/^\d*$/.test(newValue)){
+        if(/^\d*$/.test(newValue)){ //VALIDANDO
         setInputValue(newValue); //ASIGNARLO CON LA FUNCION DE USESTATE HOOK
     }
     };

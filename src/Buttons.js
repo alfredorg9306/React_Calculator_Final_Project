@@ -46,13 +46,18 @@ function Operation_Button(props){
         }
 
         const division = () =>{
-            if(props.inputValue !== "" !== 0  && props.inputValue !== 0){
-               let result = (parseFloat(props.currentValue) /  parseFloat(props.inputValue));
-               props.upvcurrentValue(result);
-               resetInput();
+            if(props.inputValue !== ""){
+                if(props.inputValue != 0){
+                    let result = (parseFloat(props.currentValue) /  parseFloat(props.inputValue));
+                    props.upvcurrentValue(result);
+                    resetInput();
+                }else{
+                    alert('The number is 0')
+                }
+              
                 
             }else{
-                alert('Su numerador o Denominador es 0');
+                alert('Empty Field');
             }
         }
 

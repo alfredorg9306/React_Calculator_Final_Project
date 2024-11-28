@@ -26,3 +26,19 @@ button{
     padding: 8px;
     border: 1px solid;
 }
+
+button:hover{
+    background-color: rgb(119, 223, 141);
+}
+
+button:nth-last-child(2),
+button:nth-last-child(1){
+    background-color: tomato
+
+}
+
+button:nth-last-child(2):hover,
+button:nth-last-child(1):hover{
+    background-color: rgb(250, 150, 132);
+}
+
